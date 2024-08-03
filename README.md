@@ -2,6 +2,7 @@
 # Run the Tool
 
 cd TGxss02
+
 chmod +x tgxss02.py
 
 # More information 
@@ -37,6 +38,3 @@ python tgxss02.py -l urls.txt -p payload.txt -r result
 python tgxss02.py -dL domains.txt -p payload.txt -r result
 
 ./tgxss02.py -dL domains.txt -p payload.txt -r ./result
-
-
-# TGxss02
