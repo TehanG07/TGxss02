@@ -1,0 +1,22 @@
+
+from setuptools import setup, find_packages
+
+setup(
+    name='TGxss07',
+    version='1.0',
+    description='XSS Vulnerability Finder Tool',
+    author='TehanG07',
+    author_email='kingstar75114@gmail.com',
+    packages=find_packages(),
+    entry_points={
+        'console_scripts': [
+            'tgxss02=tgxss02.tgxss02:main',
+        ],
+    },
+    install_requires=[
+        'requests',
+        'beautifulsoup4',
+        'termcolor',
+    ],
+    python_requires='>=3.6',
+)
